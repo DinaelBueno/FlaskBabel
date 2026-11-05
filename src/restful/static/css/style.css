@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none !important;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: #f3f6fb;
+  color: #1f2937;
+  font-family: Arial, sans-serif;
+}
+
+.language-switch {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  width: min(100% - 32px, 960px);
+  margin: 0 auto;
+  padding: 22px 0;
+  color: #64748b;
+  font-size: 14px;
+}
+
+.nav-links,
+.language-links {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.language-switch a {
+  color: #475569;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.language-switch a:hover,
+.card-link:hover {
+  color: #1d4ed8;
+}
+
+.page-main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 48px 16px;
+}
+
+.card {
+  width: min(100%, 480px);
+  padding: 32px;
+  border: 1px solid #e5eaf2;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 12px 32px rgb(15 23 42 / 9%);
+}
+
+.card-header {
+  margin-bottom: 26px;
+  text-align: center;
+}
+
+.card-header h1 {
+  margin: 0;
+  color: #172554;
+  font-size: 26px;
+}
+
+.card-header p {
+  margin: 8px 0 0;
+  color: #64748b;
+  font-size: 14px;
+}
+
+.item-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 7px;
+  color: #334155;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="number"] {
+  display: block;
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: #fff;
+  color: #1f2937;
+  font: inherit;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  border-color: #3b82f6;
+  outline: 3px solid rgb(59 130 246 / 15%);
+}
+
+.primary-button {
+  width: 100%;
+  min-height: 46px;
+  margin-top: 4px;
+  border: 0;
+  border-radius: 8px;
+  background: #2563eb;
+  color: #fff;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 150ms ease;
+}
+
+.primary-button:hover {
+  background: #1d4ed8;
+}
+
+.form-message,
+.msg {
+  margin-top: 14px;
+  padding: 10px 12px;
+  border-radius: 8px;
+}
+
+.form-message:empty {
+  display: none;
+}
+
+.ok {
+  background: #d4edda;
+  color: #155724;
+}
+
+.err {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.card-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.erro-campo {
+  color: #b91c1c;
+  font-size: 13px;
+}
+
+.consulta-card h2 {
+  margin-top: 0;
+}
+
+.consulta-card label {
+  display: block;
+}
+
+.consulta-card a {
+  text-decoration: none;
+}
+
+@media (max-width: 520px) {
+  .language-switch {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .page-main {
+    padding-top: 24px;
+  }
+
+  .card {
+    padding: 24px;
+  }
+}

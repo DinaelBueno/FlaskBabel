@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ get_locale() }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}{% endblock %} - {{ _("Controle de Itens") }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <nav class="language-switch">
+    <div class="nav-links">
+      <a href="{{ url_for('pagina_cadastro') }}">{{ _("Cadastro") }}</a>
+      <a href="{{ url_for('pagina_consulta') }}">{{ _("Consulta") }}</a>
+    </div>
+    <span class="language-links">
+      {{ _("Idioma") }}:
+      <a href="{{ url_for('mudar_idioma', lang='pt') }}">PT</a>
+      <span aria-hidden="true">|</span>
+      <a href="{{ url_for('mudar_idioma', lang='en') }}">EN</a>
+    </span>
+  </nav>
+
+  <main class="page-main">
+    {% block content %}{% endblock %}
+  </main>
+
+  <script>
+    window.i18n = {{ i18n|tojson }};
+  </script>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

@@ -1,0 +1,141 @@
+# Translations template for PROJECT.
+# Copyright (C) 2026 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-04 21:58-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: src/restful/api_routes.py:58
+msgid "Item removido com sucesso."
+msgstr ""
+
+#: src/restful/app.py:48 src/restful/forms.py:11 src/restful/forms.py:46
+msgid "O nome é obrigatório."
+msgstr ""
+
+#: src/restful/app.py:49 src/restful/forms.py:18 src/restful/forms.py:24
+#: src/restful/forms.py:52 src/restful/forms.py:57
+msgid "Valor mínimo: 0"
+msgstr ""
+
+#: src/restful/app.py:50 src/restful/forms.py:36
+msgid "Digite ao menos 3 letras"
+msgstr ""
+
+#: src/restful/app.py:51
+#, python-brace-format
+msgid "Item \"{name}\" cadastrado com sucesso!"
+msgstr ""
+
+#: src/restful/app.py:52
+msgid "Erro ao cadastrar."
+msgstr ""
+
+#: src/restful/app.py:53
+msgid "Erro de conexão."
+msgstr ""
+
+#: src/restful/app.py:54
+msgid "Tem certeza que deseja excluir este item?"
+msgstr ""
+
+#: src/restful/app.py:55
+msgid "Erro ao deletar."
+msgstr ""
+
+#: src/restful/forms.py:9 src/restful/forms.py:44
+msgid "Nome"
+msgstr ""
+
+#: src/restful/forms.py:12 src/restful/forms.py:47
+msgid "O nome deve ter entre 1 e 120 caracteres."
+msgstr ""
+
+#: src/restful/forms.py:14
+msgid "Nome do item"
+msgstr ""
+
+#: src/restful/forms.py:17 src/restful/forms.py:51
+msgid "Quantidade"
+msgstr ""
+
+#: src/restful/forms.py:23 src/restful/forms.py:56
+msgid "Valor (R$)"
+msgstr ""
+
+#: src/restful/forms.py:28
+msgid "Cadastrar"
+msgstr ""
+
+#: src/restful/forms.py:33
+msgid "Buscar item"
+msgstr ""
+
+#: src/restful/forms.py:35
+msgid "Informe um item para buscar."
+msgstr ""
+
+#: src/restful/forms.py:38
+msgid "Mínimo 3 letras"
+msgstr ""
+
+#: src/restful/forms.py:60
+msgid "Atualizar"
+msgstr ""
+
+#: src/restful/forms.py:61
+msgid "Deletar"
+msgstr ""
+
+#: src/restful/templates/base.html:6
+msgid "Controle de Itens"
+msgstr ""
+
+#: src/restful/templates/base.html:12
+msgid "Cadastro"
+msgstr ""
+
+#: src/restful/templates/base.html:13
+msgid "Consulta"
+msgstr ""
+
+#: src/restful/templates/base.html:15
+msgid "Idioma"
+msgstr ""
+
+#: src/restful/templates/cadastro.html:3
+msgid "Cadastro de Itens"
+msgstr ""
+
+#: src/restful/templates/cadastro.html:6
+msgid "Cadastrar Item"
+msgstr ""
+
+#: src/restful/templates/cadastro.html:27
+msgid "Ir para Consulta"
+msgstr ""
+
+#: src/restful/templates/consulta.html:3
+msgid "Consulta de Itens"
+msgstr ""
+
+#: src/restful/templates/consulta.html:8
+msgid "Consultar / Editar Item"
+msgstr ""
+
+#: src/restful/templates/consulta.html:65
+msgid "Voltar ao Cadastro"
+msgstr ""
+
